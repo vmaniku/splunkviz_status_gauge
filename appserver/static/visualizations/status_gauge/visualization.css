@@ -1,0 +1,46 @@
+/*
+ * CSS rules for visualization.
+ * Class namespacing is good practice.
+ */
+
+/* Formatting for text element*/
+ .vm-status-gauge-center-text {
+     font-size: 40px;
+     font-weight: 200;
+     font-family: "Helvetica Neue", Helvetica, sans-serif;
+     text-anchor: middle;
+     fill: green;
+ }
+
+.vm-status-gauge svg {
+    display: block;
+    margin: auto;
+}
+
+.vm-status-gauge {
+  width: 310px;
+  margin: 0px auto;
+}
+
+.vm-arc-color1 {
+  fill: #00A82C;
+}
+
+.vm-arc-color2 {
+  fill: #FFCC00;
+}
+
+.vm-arc-color3 {
+  fill: #e92213;
+}
+
+.needle,
+.needle-center {
+  fill: #464A4F;
+}
+
+.prose {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ababab;
+}
